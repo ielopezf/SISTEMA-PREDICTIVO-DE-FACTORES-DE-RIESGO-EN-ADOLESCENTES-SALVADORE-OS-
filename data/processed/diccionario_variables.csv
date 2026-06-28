@@ -1,0 +1,35 @@
+Variable,Descripcion,Grupo,Tipo_ML,Usar_Regresion,Usar_Clasificacion
+Q1,Edad,Demografía,Categórica,True,True
+Q2,Sexo,Demografía,Binaria,True,True
+Q3,Grado escolar,Demografía,Categórica,True,True
+Q4,Estatura,Antropometría,Continua,False,False
+Q5,Peso,Antropometría,Continua,False,False
+QN6,Hambre frecuente,Alimentación,Binaria,True,True
+QN7,Consume frutas 2+ veces al día,Alimentación,Binaria,True,True
+QN8,Consume vegetales 3+ veces al día,Alimentación,Binaria,True,True
+QN9,Consume bebidas gaseosas 1+ vez al día,Alimentación,Binaria,True,True
+QN10,Consume comida rápida 3+ días por semana,Alimentación,Binaria,True,True
+QN15,Fue atacado 1+ veces,Violencia,Binaria,True,True
+QN16,Participó en peleas 1+ veces,Violencia,Binaria,True,True
+QN17,Sufrió lesión grave 1+ veces,Violencia,Binaria,True,True
+QN20,Fue víctima de bullying,Violencia,Binaria,True,True
+QN22,Soledad frecuente,Salud mental,Binaria,True,False
+QN23,Preocupación impidió dormir,Salud mental,Binaria,True,True
+QN24,Consideró suicidarse,Salud mental,Binaria,False,TARGET
+QN25,Hizo plan suicida,Salud mental,Binaria,False,False
+QN26,Intentó suicidarse,Salud mental,Binaria,False,False
+QN34,Primer consumo de alcohol antes de los 14,Alcohol,Binaria,True,True
+QN35,Consumió alcohol en últimos 30 días,Alcohol,Binaria,True,True
+QN38,Se embriagó alguna vez,Alcohol,Binaria,True,True
+QN39,Tuvo problemas por alcohol,Alcohol,Binaria,True,True
+QN40,Primer consumo de drogas antes de los 14,Drogas,Binaria,True,True
+QN49,Actividad física 5+ días,Actividad física,Binaria,True,True
+QN50,No caminó/bicicleta a la escuela,Actividad física,Binaria,True,True
+QN51,Educación física 3+ días,Actividad física,Binaria,True,True
+QN52,Sedentarismo 3+ horas al día,Actividad física,Binaria,True,True
+QN53,Faltó a clases sin permiso,Escuela,Binaria,True,True
+QN54,Compañeros amables,Escuela,Binaria,True,True
+QN55,Padres revisan tareas,Familia,Binaria,True,True
+QN56,Padres entienden problemas,Familia,Binaria,True,True
+QN57,Padres conocen tiempo libre,Familia,Binaria,True,True
+QN58,Padres revisan pertenencias rara vez,Familia,Binaria,True,True

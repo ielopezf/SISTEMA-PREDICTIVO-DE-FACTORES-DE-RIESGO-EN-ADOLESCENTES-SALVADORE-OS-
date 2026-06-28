@@ -1,0 +1,105 @@
+Columna,Tipo_Dato,No_Nulos,Nulos,%_Nulos,Valores_Unicos,Clasificacion,Variable,Descripcion,Grupo,Tipo_ML,Usar_Regresion,Usar_Clasificacion
+Q1,float64,1886,29,1.51,6,Categórica,Q1,Edad,Demografía,Categórica,True,True
+Q2,float64,1883,32,1.67,2,Binaria,Q2,Sexo,Demografía,Binaria,True,True
+Q3,float64,1873,42,2.19,3,Categórica,Q3,Grado escolar,Demografía,Categórica,True,True
+Q4,float64,1738,177,9.24,56,Continua,Q4,Estatura,Antropometría,Continua,False,False
+Q5,float64,1738,177,9.24,79,Continua,Q5,Peso,Antropometría,Continua,False,False
+Q6,float64,1901,14,0.73,5,Categórica,,,,,,
+Q7,float64,1900,15,0.78,7,Categórica,,,,,,
+Q8,float64,1886,29,1.51,7,Categórica,,,,,,
+Q9,float64,1907,8,0.42,7,Categórica,,,,,,
+Q10,float64,1901,14,0.73,8,Categórica,,,,,,
+Q11,float64,1894,21,1.1,6,Categórica,,,,,,
+Q12,float64,1891,24,1.25,5,Categórica,,,,,,
+Q13,float64,1906,9,0.47,5,Categórica,,,,,,
+Q14,float64,1901,14,0.73,5,Categórica,,,,,,
+Q15,float64,1891,24,1.25,8,Categórica,,,,,,
+Q16,float64,1910,5,0.26,8,Categórica,,,,,,
+Q17,float64,1714,201,10.5,8,Categórica,,,,,,
+Q18,float64,1799,116,6.06,8,Categórica,,,,,,
+Q19,float64,1741,174,9.09,8,Categórica,,,,,,
+Q20,float64,1829,86,4.49,7,Categórica,,,,,,
+Q21,float64,1859,56,2.92,8,Categórica,,,,,,
+Q22,float64,1886,29,1.51,5,Categórica,,,,,,
+Q23,float64,1911,4,0.21,5,Categórica,,,,,,
+Q24,float64,1890,25,1.31,2,Binaria,,,,,,
+Q25,float64,1867,48,2.51,2,Binaria,,,,,,
+Q26,float64,1906,9,0.47,5,Categórica,,,,,,
+Q27,float64,1872,43,2.25,4,Categórica,,,,,,
+Q34,float64,1760,155,8.09,7,Categórica,,,,,,
+Q35,float64,1837,78,4.07,7,Categórica,,,,,,
+Q36,float64,1865,50,2.61,7,Categórica,,,,,,
+Q37,float64,1835,80,4.18,7,Categórica,,,,,,
+Q38,float64,1880,35,1.83,4,Categórica,,,,,,
+Q39,float64,1850,65,3.39,4,Categórica,,,,,,
+Q40,float64,1908,7,0.37,7,Categórica,,,,,,
+Q44,float64,1817,98,5.12,2,Binaria,,,,,,
+Q45,float64,1866,49,2.56,7,Categórica,,,,,,
+Q46,float64,1882,33,1.72,7,Categórica,,,,,,
+Q47,float64,1859,56,2.92,3,Categórica,,,,,,
+Q48,float64,1842,73,3.81,4,Categórica,,,,,,
+Q49,float64,1900,15,0.78,8,Categórica,,,,,,
+Q50,float64,1892,23,1.2,8,Categórica,,,,,,
+Q51,float64,1862,53,2.77,6,Categórica,,,,,,
+Q52,float64,1888,27,1.41,6,Categórica,,,,,,
+Q53,float64,1873,42,2.19,5,Categórica,,,,,,
+Q54,float64,1904,11,0.57,5,Categórica,,,,,,
+Q55,float64,1886,29,1.51,5,Categórica,,,,,,
+Q56,float64,1868,47,2.45,5,Categórica,,,,,,
+Q57,float64,1893,22,1.15,5,Categórica,,,,,,
+Q58,float64,1876,39,2.04,5,Categórica,,,,,,
+QN6,float64,1901,14,0.73,2,Binaria,QN6,Hambre frecuente,Alimentación,Binaria,True,True
+QN7,float64,1900,15,0.78,2,Binaria,QN7,Consume frutas 2+ veces al día,Alimentación,Binaria,True,True
+QN8,float64,1886,29,1.51,2,Binaria,QN8,Consume vegetales 3+ veces al día,Alimentación,Binaria,True,True
+QN9,float64,1907,8,0.42,2,Binaria,QN9,Consume bebidas gaseosas 1+ vez al día,Alimentación,Binaria,True,True
+QN10,float64,1901,14,0.73,2,Binaria,QN10,Consume comida rápida 3+ días por semana,Alimentación,Binaria,True,True
+QN11,float64,1894,21,1.1,2,Binaria,,,,,,
+QN12,float64,1891,24,1.25,2,Binaria,,,,,,
+QN13,float64,1906,9,0.47,2,Binaria,,,,,,
+QN14,float64,1901,14,0.73,2,Binaria,,,,,,
+QN15,float64,1891,24,1.25,2,Binaria,QN15,Fue atacado 1+ veces,Violencia,Binaria,True,True
+QN16,float64,1910,5,0.26,2,Binaria,QN16,Participó en peleas 1+ veces,Violencia,Binaria,True,True
+QN17,float64,1714,201,10.5,2,Binaria,QN17,Sufrió lesión grave 1+ veces,Violencia,Binaria,True,True
+QN18,float64,450,1465,76.5,2,Binaria,,,,,,
+QN19,float64,459,1456,76.03,2,Binaria,,,,,,
+QN20,float64,1829,86,4.49,2,Binaria,QN20,Fue víctima de bullying,Violencia,Binaria,True,True
+QN21,float64,347,1568,81.88,2,Binaria,,,,,,
+QN22,float64,1886,29,1.51,2,Binaria,QN22,Soledad frecuente,Salud mental,Binaria,True,False
+QN23,float64,1911,4,0.21,2,Binaria,QN23,Preocupación impidió dormir,Salud mental,Binaria,True,True
+QN24,float64,1890,25,1.31,2,Binaria,QN24,Consideró suicidarse,Salud mental,Binaria,False,TARGET
+QN25,float64,1867,48,2.51,2,Binaria,QN25,Hizo plan suicida,Salud mental,Binaria,False,False
+QN26,float64,1906,9,0.47,2,Binaria,QN26,Intentó suicidarse,Salud mental,Binaria,False,False
+QN27,float64,1872,43,2.25,2,Binaria,,,,,,
+QN34,float64,664,1251,65.33,2,Binaria,QN34,Primer consumo de alcohol antes de los 14,Alcohol,Binaria,True,True
+QN35,float64,1837,78,4.07,2,Binaria,QN35,Consumió alcohol en últimos 30 días,Alcohol,Binaria,True,True
+QN36,float64,408,1507,78.69,2,Binaria,,,,,,
+QN37,float64,363,1552,81.04,2,Binaria,,,,,,
+QN38,float64,1880,35,1.83,2,Binaria,QN38,Se embriagó alguna vez,Alcohol,Binaria,True,True
+QN39,float64,1850,65,3.39,2,Binaria,QN39,Tuvo problemas por alcohol,Alcohol,Binaria,True,True
+QN40,float64,223,1692,88.36,2,Binaria,QN40,Primer consumo de drogas antes de los 14,Drogas,Binaria,True,True
+QN44,float64,1817,98,5.12,2,Binaria,,,,,,
+QN45,float64,350,1565,81.72,2,Binaria,,,,,,
+QN46,float64,1882,33,1.72,2,Binaria,,,,,,
+QN47,float64,333,1582,82.61,2,Binaria,,,,,,
+QN48,float64,335,1580,82.51,2,Binaria,,,,,,
+QN49,float64,1900,15,0.78,2,Binaria,QN49,Actividad física 5+ días,Actividad física,Binaria,True,True
+QN50,float64,1892,23,1.2,2,Binaria,QN50,No caminó/bicicleta a la escuela,Actividad física,Binaria,True,True
+QN51,float64,1862,53,2.77,2,Binaria,QN51,Educación física 3+ días,Actividad física,Binaria,True,True
+QN52,float64,1888,27,1.41,2,Binaria,QN52,Sedentarismo 3+ horas al día,Actividad física,Binaria,True,True
+QN53,float64,1873,42,2.19,2,Binaria,QN53,Faltó a clases sin permiso,Escuela,Binaria,True,True
+QN54,float64,1904,11,0.57,2,Binaria,QN54,Compañeros amables,Escuela,Binaria,True,True
+QN55,float64,1886,29,1.51,2,Binaria,QN55,Padres revisan tareas,Familia,Binaria,True,True
+QN56,float64,1868,47,2.45,2,Binaria,QN56,Padres entienden problemas,Familia,Binaria,True,True
+QN57,float64,1893,22,1.15,2,Binaria,QN57,Padres conocen tiempo libre,Familia,Binaria,True,True
+QN58,float64,1876,39,2.04,2,Binaria,QN58,Padres revisan pertenencias rara vez,Familia,Binaria,True,True
+qnowtg,float64,1738,177,9.24,2,Binaria,,,,,,
+qnobeseg,float64,1738,177,9.24,2,Binaria,,,,,,
+qnunwtg,float64,1738,177,9.24,2,Binaria,,,,,,
+qnfrvgg,float64,1880,35,1.83,2,Binaria,,,,,,
+qnpa7g,float64,1900,15,0.78,2,Binaria,,,,,,
+qnpe5g,float64,1862,53,2.77,2,Binaria,,,,,,
+qnc1g,float64,184,1731,90.39,2,Binaria,,,,,,
+qnc2g,float64,131,1784,93.16,2,Binaria,,,,,,
+weight,float64,1915,0,0.0,136,Continua,,,,,,
+stratum,int64,1915,0,0.0,20,Ordinal,,,,,,
+psu,int64,1915,0,0.0,41,Continua,,,,,,
