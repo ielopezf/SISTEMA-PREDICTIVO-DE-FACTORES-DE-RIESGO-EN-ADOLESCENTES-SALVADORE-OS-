@@ -1,0 +1,6 @@
+Modelo,MAE,RMSE,MAPE_%,R2
+regresion_lineal,1.4676,2.3513,5.9216,0.9938
+ensemble_stacking,1.5169,2.3709,6.4885,0.9937
+xgboost_optimizado,1.9519,3.1321,7.4932,0.989
+random_forest,1.8836,3.1315,7.6657,0.989
+red_neuronal,3.2223,4.0702,12.395,0.9815

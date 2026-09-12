@@ -1,12 +1,40 @@
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-xgboost
-imbalanced-learn
-jupyter
-notebook
-joblib
-scipy
-openpyxl
+# ============================================================
+# Predicción de precios agrícolas - El Salvador (Grupo 01)
+# Dependencias base. Fijar versiones exactas antes de entregar
+# (pip freeze > requirements.lock) para garantizar reproducibilidad.
+# ============================================================
+
+# --- Núcleo de datos ---
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1          # lectura/escritura de .xlsx del MAG
+pyarrow>=14.0          # datasets .parquet en data/processed
+
+# --- Visualización (EDA) ---
+matplotlib>=3.7
+seaborn>=0.13
+
+# --- Modelado baseline (Etapa 1) ---
+scikit-learn>=1.3      # Regresión Lineal, Random Forest, métricas, CV temporal
+xgboost>=2.0           # baseline fuerte
+
+# --- Interpretabilidad (Etapa 1) ---
+shap>=0.44
+lime>=0.2
+
+# --- Entorno de trabajo ---
+jupyter>=1.0
+ipykernel>=6.0
+
+# --- Modelos avanzados (Etapa 2) ---
+tensorflow-cpu>=2.15   # LSTM y Redes Neuronales (notebook 04)
+optuna>=3.5             # optimización de hiperparámetros (XGBoost)
+
+# --- Despliegue (Etapa 2): API + prototipo funcional ---
+# Dependencias específicas y actualizadas de cada app en api/requirements.txt
+# y streamlit_app/requirements.txt; se listan aquí también para instalar todo
+# el proyecto de una sola vez.
+flask>=3.0
+flask-cors>=4.0
+streamlit>=1.36
+requests>=2.31
